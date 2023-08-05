@@ -1,4 +1,4 @@
-package goseeder
+package seed
 
 import (
 	"fmt"
