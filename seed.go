@@ -6,7 +6,7 @@ import (
 	"os/exec"
 )
 
-func init() {
+func Seed() {
 	if len(os.Args) < 2 {
 		fmt.Println("Please provide a command: create-seeder or run-seeder")
 		os.Exit(1)
